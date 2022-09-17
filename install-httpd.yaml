@@ -17,9 +17,9 @@
         name: httpd
         enabled: true
         state: started
-    # - name: open firewall
-    #   ansible.posix.firewalld:
-    #     service: http
-    #     state: enabled
-    #     immediate: true
-    #     permanent: true
+    - name: open firewall
+      ansible.posix.firewalld:
+        service: http
+        state: enabled
+        immediate: true
+        permanent: true
