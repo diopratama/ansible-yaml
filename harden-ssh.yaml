@@ -1,5 +1,5 @@
 ---
-- name: Harden CentOS 7 server (SSH changes)
+- name: Harden CentOS server (SSH changes)
   hosts: centosservers
   become: yes
   tasks:
