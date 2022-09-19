@@ -1,6 +1,6 @@
 ---
 - name: Harden CentOS server (SSH changes)
-  hosts: centosservers
+  hosts: all
   become: yes
   tasks:
   - name: Change SSH port
